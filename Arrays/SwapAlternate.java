@@ -1,0 +1,34 @@
+package Arrays;
+
+import java.util.*;
+
+public class SwapAlternate {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Even size of array : ");
+        int size = sc.nextInt();
+
+        int arr[] = new int[size];
+        System.out.println("Enter Array Elements : ");
+        for(int i = 0; i< size ;i++){
+
+            arr[i] = sc.nextInt();
+
+        }
+
+        for(int i = 0;i <size-1;i+=2){
+
+            int temp = arr[i];
+            arr[i] = arr[i+1];
+            arr[i+1] = temp;
+            
+            
+        }
+
+        System.out.println("Swapped Array :" +Arrays.toString(arr));
+    }
+    
+}
