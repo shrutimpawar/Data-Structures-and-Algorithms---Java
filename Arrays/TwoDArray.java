@@ -24,3 +24,15 @@ public class TwoDArray {
     }
     
 }
+
+// traversal 2D-Array
+//  for(int row = 0;row < arr.length;row++){
+
+//             for(int col = 0;col < arr[row].length;col++ ){
+
+//                 System.out.print(arr[row][col] + " ");
+
+//             }
+// }
+
+
